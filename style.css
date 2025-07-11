@@ -201,8 +201,41 @@ body {
   font-size: 16px;
   font-weight:bold;
   border: none;
-  padding: 19px 201px;
   border-radius: 6px;
   cursor: pointer;
   font-weight: 600;
+  padding: 12px 36px;
+  margin-top: 20px;
 }
+
+/* Footer Section */
+.footer {
+  padding: 60px 20px;
+  text-align: center;
+  background-color: #f9fafb;
+}
+.footer .logo {
+  font-size: 40px;
+  color: #4E47FF;
+   font-family: 'Inter', sans-serif;
+  font-size: 100px;
+  font-weight:900;
+  margin-bottom: 10px;
+}
+.footer p {
+  color: #8987A1;
+  max-width: 600px;
+  margin: 0 auto 20px;
+  line-height: 1.6;
+}
+.footer-nav a {
+  margin: 0 15px;
+  color: #6b7280;
+  text-decoration: none;
+  font-size: 14px;
+  gap: 48px;
+}
+.footer-nav a:hover {
+  text-decoration: underline;
+ }
+
