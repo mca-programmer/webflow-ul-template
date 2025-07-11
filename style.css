@@ -39,6 +39,10 @@ body {
   font-size: 16px;
   font-weight: bold;
 }
+
+.signup-btn:hover{
+background: #09e635;
+}
 .banner h1 {
   font-family: 'Raleway', sans-serif;
   color: #252432;
@@ -55,6 +59,10 @@ body {
   font-weight: bold;
   font-size: 16px;
   cursor: pointer;
+}
+
+.focus-btn:hover {
+background: #cd0d0d;
 }
 
 /* Action Section */
@@ -96,6 +104,9 @@ body {
   font-size: 16px;
   font-weight: bold;
   cursor: pointer;
+}
+.preview-btn:hover {
+background: #f1bb07;
 }
 .action-right img {
   width: 100%;
@@ -206,6 +217,9 @@ body {
   font-weight: 600;
   padding: 12px 36px;
   margin-top: 20px;
+}
+button:hover{
+  background: #9b0505;
 }
 
 /* Footer Section */
