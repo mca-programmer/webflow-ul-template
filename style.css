@@ -155,6 +155,78 @@ background: #f1bb07;
   margin-top: 6px;
 }
 
+/* Users’ Feedback Section*/
+.testimonials {
+  background: #ffffff;
+  padding: 60px 20px;
+  text-align: center;
+  font-family: sans-serif;
+  margin: 141px 159px;
+}
+
+.testimonials h2 {
+  font-family: 'Raleway', sans-serif;
+  font-size: 42px;
+  font-weight:bold;
+  color: #252432;
+}
+ .h {
+  font-family: 'Raleway', sans-serif;
+  font-size: 20px;
+  font-weight:bold;
+  color: #252432;
+}
+ .p {
+  font-family: 'Raleway', sans-serif;
+  font-size: 10px;
+  font-weight:400;
+  color: #636365;
+}
+span, small{
+  font-family: 'Raleway', sans-serif;
+  font-size: 10px;
+  font-weight:400;
+  color: #89898c;
+}
+ small{
+  color: #949497;
+ }
+
+.testimonial-list {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.testimonial-card {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  width: 250px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+  text-align: left;
+}
+
+.stars {
+  color: #FFB805;
+  margin-bottom: 10px;
+}
+
+.reviewer {
+  display: flex;
+  align-items: center;
+  margin-top: 15px;
+  gap: 10px;
+}
+
+.reviewer img {
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+}
+
+
 /* contact form section */
 .contact-section {
   background: #f6f8ff;
@@ -221,6 +293,7 @@ background: #f1bb07;
 button:hover{
   background: #9b0505;
 }
+
 
 /* Footer Section */
 .footer {
