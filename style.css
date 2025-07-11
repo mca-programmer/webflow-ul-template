@@ -103,3 +103,43 @@ body {
   max-height: 328px;
   border-radius: 20px;
 }
+
+/* user statistics section */
+.stats-section {
+  background: #eaeaff;
+  padding: 60px 20px;
+  text-align: center;
+   margin: 166px 141px ;
+}
+
+
+.stats-box h2 {
+  font-family: 'Raleway', sans-serif;
+  font-size: 38px;
+  font-weight:bold;
+  color: #252432;
+  margin-bottom: 30px;
+}
+
+.stats {
+  display: flex;
+  justify-content: center;
+  gap: 158px;
+  flex-wrap: wrap;
+}
+
+.stat h3 {
+  color:  #4E47FF;
+  font-family: 'inter', sans-serif;
+  font-size: 80px;
+  font-weight:bold;
+  margin: 0;
+}
+
+.stat p {
+  color:  #000000;
+  font-family: 'inter', sans-serif;
+  font-size: 20px;
+  font-weight:400;
+  margin-top: 6px;
+}
